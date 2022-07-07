@@ -1,0 +1,155 @@
+.loginContainer {
+  background-color: #f2f2f2;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.loginContainer .loginArea {
+  background: #ffffff;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 8px;
+  margin: auto;
+  height: 400px;
+  text-align: center;
+  padding: 20px;
+  display: -ms-grid;
+  display: grid;
+}
+
+@media screen and (max-width: 490px) {
+  .loginContainer .loginArea {
+    height: 100vh;
+    width: 100vw;
+  }
+}
+
+.loginContainer .loginArea div img {
+  height: 51px;
+  width: 282px;
+  margin: 0 auto;
+}
+
+.loginContainer .loginArea div p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  margin-top: 20px;
+  color: #000000;
+}
+
+.loginContainer .loginArea .form {
+  text-align: start;
+}
+
+.loginContainer .loginArea .form .resetPassaword {
+  margin-bottom: 10px;
+  text-align: right;
+}
+
+.loginContainer .loginArea .form .resetPassaword a {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+.homeContainer .header {
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.homeContainer .header img {
+  height: 33px;
+  width: 180px;
+  margin: 10px;
+}
+
+.homeContainer .contextCol {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100vh;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media screen and (max-width: 490px) {
+  .homeContainer .contextCol {
+    display: none;
+  }
+}
+
+.homeContainer .contextCol .content {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+.homeContainer .contextCol .content .bg {
+  width: 523.9px;
+  height: 392.93px;
+}
+
+.homeContainer .contextCol .content p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.homeContainer .userList {
+  padding: 10px;
+  height: 100vh;
+  border-right: 1px solid #cccccc;
+  overflow-y: scroll;
+}
+
+.homeContainer .userList p {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+.homeContainer .userList .userCard .avatar {
+  background: url(image.png);
+  -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+          filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 200px;
+  height: 45px;
+  margin: auto;
+  width: 45px;
+}
+
+.homeContainer .userList .userCard .userName {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  color: #3988ff;
+}
+
+.homeContainer .userList .userCard .userMail {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #63666a;
+}
+
+.homeContainer .userList .userCard .userPhone {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #63666a;
+}
+/*# sourceMappingURL=style.css.map */
